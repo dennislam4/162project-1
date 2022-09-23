@@ -12,7 +12,7 @@ from statistics import mode
 
 class Student:
     """
-    Represents a parameter of student which contatins their name and grade.
+    Represents student information which contatins their name and grade.
     """
     def __init__(self, name, grade):
         """Initializes the name and grade parameters of student."""
@@ -25,7 +25,7 @@ class Student:
 
 def basic_stats(student_list):
     """
-    First creates an empty list from which the grade value in appended in from using the get_grade method. Takes the grade
+    First creates an empty list from which the grade value is appended in from using the get_grade method. Takes the grade
     values from the list of students given and then using the statistics library, returns the mean, median, and mode of
     student grades in an ordered tuple.
     """
